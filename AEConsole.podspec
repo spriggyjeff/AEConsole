@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.author = { 'tadija' => 'tadija@me.com' }
     s.social_media_url = 'http://twitter.com/tadija'
 
-    s.ios.deployment_target = '9.0'
+    s.ios.deployment_target = '8.0'
 
     s.source = { :git => 'https://github.com/tadija/AEConsole.git', :tag => s.version }
     s.source_files = 'Sources/*.swift'
